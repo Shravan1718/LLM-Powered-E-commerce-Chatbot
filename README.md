@@ -1,14 +1,14 @@
-# Flipkart E-commerce Chatbot
+# 🤖 Flipkart E-commerce Chatbot
 
-## 🎯 Objective
+## Objective
 To build an intelligent chatbot for Flipkart that:
 - **Answers customer FAQs** using semantic search + LLM (Large Language Models).
 - **Provides product recommendations** by interpreting natural language queries, converting them into SQL, and displaying results conversationally.
 
-## 📱 Deployment Platform
+## Deployment Platform
 - **Frontend**: Built and deployed using **Streamlit**
 
-## 🔧 Functionality Overview
+## Functionality Overview
 ### 1. Dual Mode Bot
 The chatbot serves two main purposes:
 - **FAQ Mode**: 
@@ -43,7 +43,7 @@ The chatbot serves two main purposes:
     - `answer` (stored as metadata)
   - Supports **semantic search** to find the most relevant question
 
-## 🤖 Bot Workflow
+## Bot Workflow
 ### Step 1: Semantic Router
 LLM-based classification of user queries into categories:
 - **FAQ**
@@ -69,7 +69,7 @@ LLM-based classification of user queries into categories:
 4. Results + original query → Passed to LLM
 5. Final conversational response generated for chatbot display
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Selenium**: Web scraping from Flipkart.
 - **Streamlit**: Interactive web interface.
 - **ChromaDB**: Semantic search for FAQs.
@@ -80,7 +80,7 @@ LLM-based classification of user queries into categories:
 - **Semantic Router**: Query classification (FAQ vs SQL).
 - **HuggingFaceEncoder**: Query encoding using pre-trained models.
 
-## 🧠 LLM Usage Summary
+## LLM Usage Summary
 | Stage           | Purpose                                      |
 |-----------------|----------------------------------------------|
 | **Semantic Routing** | Classify user query type (FAQ vs SQL)   |
@@ -88,7 +88,7 @@ LLM-based classification of user queries into categories:
 | **SQL Generation** | Convert natural language to SQL           |
 | **Product Response** | Format query result into a response    |
 
-## 🤖 Chatbot Features
+## Chatbot Features
 - FAQ handling via semantic search and LLM for intelligent responses.
 - Product querying through SQL generation based on natural language queries.
 - Ability to retrieve top-rated products based on different parameters, such as brand and rating.
