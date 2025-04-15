@@ -5,9 +5,6 @@ To build an intelligent chatbot for Flipkart that:
 - **Answers customer FAQs** using semantic search + LLM (Large Language Models).
 - **Provides product recommendations** by interpreting natural language queries, converting them into SQL, and displaying results conversationally.
 
-## Deployment Platform
-- **Frontend**: Built and deployed using **Streamlit**
-
 ## Functionality Overview
 ### 1. Dual Mode Bot
 The chatbot serves two main purposes:
@@ -93,3 +90,5 @@ LLM-based classification of user queries into categories:
 - Product querying through SQL generation based on natural language queries.
 - Ability to retrieve top-rated products based on different parameters, such as brand and rating.
 
+## Deployment Platform
+- **Frontend**: Built and deployed using **Streamlit**
