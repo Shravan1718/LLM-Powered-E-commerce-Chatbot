@@ -1,5 +1,8 @@
 # 🤖 Flipkart E-commerce Chatbot
 
+🎥 [Click here to watch the chatbot demo video](https://www.youtube.com/watch?v=HFMKfsOaOuY)
+
+
 ## Objective
 To build an intelligent chatbot for Flipkart that:
 - **Answers customer FAQs** using semantic search + LLM (Large Language Models).
